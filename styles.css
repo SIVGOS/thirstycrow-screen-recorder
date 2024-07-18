@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f06, #ff9);
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+canvas {
+    width: 100%;
+    border: 2px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#startbtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#startbtn:hover {
+    background-color: #218838;
+}
+
+#recordbtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#recordbtn:hover {
+    background-color: #c82333;
+}
+
+#sharescreen {
+    background-color: #007bff;
+    color: white;
+}
+
+#sharescreen:hover {
+    background-color: #0069d9;
+}
+
+.button-recording {
+    background-color: #ff6347 !important;
+}
+
+.ad-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.bottom-ad {
+    margin-top: 20px;
+}
